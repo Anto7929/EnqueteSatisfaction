@@ -9,9 +9,16 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title></title>
     </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
+    <body>  
+        <div id="connexion">
+            <label>Espace administrateur</label>
+            <label>Enquête satisfaction</label>
+            <label>Identifiant</label>
+            <input type="text" placeholder="" name="username" required>
+            <label>Mot de passe</label>
+            <input type="password" placeholder="" name="password" required>
+            <input type="submit" id='submit' value='Connexion'>
+        </div>
+  
     </body>
 </html>

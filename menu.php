@@ -1,7 +1,12 @@
+<div id="menu1">
 <nav>   <!-- Menu de navigation -->
-            <ul>
-                <li><a href="statistiques.php">Statistiques</a></li>
-                <li><a href="gestion_enquete.php">Gérer les enquêtes</a></li>
-                <li><a href="deconnexion.php">Se déconnecter</a></li>
+            <ul id="menu">
+                <!--<li><a href="#"><img id="logoStJo" src="" alt="logoStJo" </a></li>-->
+                <li class="flRight"><a href="deconnexion.php">Se déconnecter</a></li>
+                <li class="flRight"><a href="gestionEnquete.php">Gérer les enquêtes</a></li>
+                <li class="flRight"><a href="#">Statistiques</a></li>   
+                
+                
             </ul>
         </nav>
+</div>

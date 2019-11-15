@@ -8,7 +8,7 @@
     
 }
 
-<<<<<<< HEAD
+
 ul li a {
     display: block;
     float: left;
@@ -85,19 +85,36 @@ ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 /*FIN CSS BARRE SELECTION*/
-=======
+
 .en-teteDivCo{
-    position: absolute;
+    display: block;
+    text-align: center;
 }
 
-.connexion{
-    width: 100px;
+.en-teteDivCo{
+    display: block;
+    text-align: center;
+}
+
+
+
+.label-co{
+
+    width: 8rem;
     display: block; 
     float: left;
+    text-align: center;
+    margin-top: 1rem; 
     
 }
 
-#label-co{
-    margin-top: 30px;
+.bt_connection{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 31%;
+
 }
->>>>>>> 2564fe087cbc4676627fbca446dd051f75b50efd
+
+#espadm{
+    margin-top: 8rem;
+}

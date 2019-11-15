@@ -11,14 +11,14 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>  
-            <label class="en-teteDivCo">Espace administrateur</label><br>
+            <label id="espadm" class="en-teteDivCo">Espace administrateur</label><br>
             <label class="en-teteDivCo">Enquête satisfaction</label><br />
         <div id="connexion">
-            <label id="label-co" class="connexion">Identifiant</label>
-            <input class="connexion" type="text" placeholder="" name="username" required><br>
-            <label class="connexion">Mot de passe</label>
-            <input class="connexion" type="password" placeholder="" name="password" required><br>
-            <input type="submit" id='submit' value='Connexion'>
+            <label class="label-co">Identifiant</label>
+            <input class="label-co" type="text" placeholder="" name="username" required><br>
+            <label class="label-co">Mot de passe</label>
+            <input class="label-co" type="password" placeholder="" name="password" required><br>
+            <input class="bt_connection" type="submit" id='submit' value='Connexion'>
         </div>
   
     </body>

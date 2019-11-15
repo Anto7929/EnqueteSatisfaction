@@ -1,23 +1,14 @@
 #connexion{
     position: relative;
-    width: 196px;
-    height: 610px;
+    width: 290px;
+    height: 170px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
     
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    background-color: #f1f1f1;
-    position: relative;
-    overflow: auto;
-}
 
+<<<<<<< HEAD
 ul li a {
     display: block;
     float: left;
@@ -94,3 +85,19 @@ ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 /*FIN CSS BARRE SELECTION*/
+=======
+.en-teteDivCo{
+    position: absolute;
+}
+
+.connexion{
+    width: 100px;
+    display: block; 
+    float: left;
+    
+}
+
+#label-co{
+    margin-top: 30px;
+}
+>>>>>>> 2564fe087cbc4676627fbca446dd051f75b50efd
